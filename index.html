@@ -288,7 +288,7 @@
     </script>
   </head>
 
-  <body class="index" data-languages="[&quot;shell&quot;,&quot;ruby&quot;,&quot;python&quot;,&quot;javascript&quot;]">
+  <body class="index" data-languages="[&quot;javascript&quot;]">
     <a href="#" id="nav-button">
       <span>
         NAV
@@ -296,11 +296,8 @@
       </span>
     </a>
     <div class="toc-wrapper">
-      <img src="images/logo-1e815a84.png" class="logo" alt="" />
+      <img src="images/logo-afdca753.png" class="logo" alt="" />
         <div class="lang-selector">
-              <a href="#" data-language-name="shell">shell</a>
-              <a href="#" data-language-name="ruby">ruby</a>
-              <a href="#" data-language-name="python">python</a>
               <a href="#" data-language-name="javascript">javascript</a>
         </div>
         <div class="search">
@@ -312,19 +309,87 @@
             <a href="#introduction" class="toc-h1 toc-link" data-title="Introduction">Introduction</a>
           </li>
           <li>
-            <a href="#authentication" class="toc-h1 toc-link" data-title="Authentication">Authentication</a>
+            <a href="#authentication-todo" class="toc-h1 toc-link" data-title="Authentication // **TODO">Authentication // **TODO</a>
           </li>
           <li>
-            <a href="#kittens" class="toc-h1 toc-link" data-title="Kittens">Kittens</a>
+            <a href="#server" class="toc-h1 toc-link" data-title="Server">Server</a>
               <ul class="toc-list-h2">
                   <li>
-                    <a href="#get-all-kittens" class="toc-h2 toc-link" data-title="Get All Kittens">Get All Kittens</a>
+                    <a href="#create-worker" class="toc-h2 toc-link" data-title="create worker">create worker</a>
                   </li>
                   <li>
-                    <a href="#get-a-specific-kitten" class="toc-h2 toc-link" data-title="Get a Specific Kitten">Get a Specific Kitten</a>
+                    <a href="#create-router" class="toc-h2 toc-link" data-title="Create Router">Create Router</a>
                   </li>
                   <li>
-                    <a href="#delete-a-specific-kitten" class="toc-h2 toc-link" data-title="Delete a Specific Kitten">Delete a Specific Kitten</a>
+                    <a href="#create-transport" class="toc-h2 toc-link" data-title="Create Transport">Create Transport</a>
+                  </li>
+                  <li>
+                    <a href="#produce-media" class="toc-h2 toc-link" data-title="Produce Media">Produce Media</a>
+                  </li>
+                  <li>
+                    <a href="#consume-media" class="toc-h2 toc-link" data-title="Consume Media">Consume Media</a>
+                  </li>
+                  <li>
+                    <a href="#active-speaker-detection" class="toc-h2 toc-link" data-title="Active Speaker Detection">Active Speaker Detection</a>
+                  </li>
+                  <li>
+                    <a href="#notification-event" class="toc-h2 toc-link" data-title="Notification Event">Notification Event</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#client" class="toc-h1 toc-link" data-title="Client">Client</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#introduction" class="toc-h2 toc-link" data-title="Introduction">Introduction</a>
+                  </li>
+                  <li>
+                    <a href="#create-client" class="toc-h2 toc-link" data-title="Create Client">Create Client</a>
+                  </li>
+                  <li>
+                    <a href="#create-room" class="toc-h2 toc-link" data-title="Create Room">Create Room</a>
+                  </li>
+                  <li>
+                    <a href="#join-room" class="toc-h2 toc-link" data-title="Join Room">Join Room</a>
+                  </li>
+                  <li>
+                    <a href="#websocket-listeners" class="toc-h2 toc-link" data-title="Websocket Listeners">Websocket Listeners</a>
+                  </li>
+                  <li>
+                    <a href="#server-configuration" class="toc-h2 toc-link" data-title="Server Configuration">Server Configuration</a>
+                  </li>
+                  <li>
+                    <a href="#register-webrtc" class="toc-h2 toc-link" data-title="Register WebRTC">Register WebRTC</a>
+                  </li>
+                  <li>
+                    <a href="#create-device-type" class="toc-h2 toc-link" data-title="Create Device Type">Create Device Type</a>
+                  </li>
+                  <li>
+                    <a href="#matches-media-configuration" class="toc-h2 toc-link" data-title="Matches Media Configuration">Matches Media Configuration</a>
+                  </li>
+                  <li>
+                    <a href="#create-sendtransport" class="toc-h2 toc-link" data-title="Create sendTransport">Create sendTransport</a>
+                  </li>
+                  <li>
+                    <a href="#create-receivetransport" class="toc-h2 toc-link" data-title="Create receiveTransport">Create receiveTransport</a>
+                  </li>
+                  <li>
+                    <a href="#create-or-produce" class="toc-h2 toc-link" data-title="Create or Produce">Create or Produce</a>
+                  </li>
+                  <li>
+                    <a href="#receive-or-consume" class="toc-h2 toc-link" data-title="Receive  or Consume">Receive  or Consume</a>
+                  </li>
+                  <li>
+                    <a href="#mute-local" class="toc-h2 toc-link" data-title="Mute Local">Mute Local</a>
+                  </li>
+                  <li>
+                    <a href="#unmute-local" class="toc-h2 toc-link" data-title="unMute Local">unMute Local</a>
+                  </li>
+                  <li>
+                    <a href="#mute-remote" class="toc-h2 toc-link" data-title="Mute Remote">Mute Remote</a>
+                  </li>
+                  <li>
+                    <a href="#unmute-remote" class="toc-h2 toc-link" data-title="unMute Remote">unMute Remote</a>
                   </li>
               </ul>
           </li>
@@ -334,141 +399,146 @@
       </ul>
         <ul class="toc-footer">
             <li><a href='#'>Sign Up for a Developer Key</a></li>
-            <li><a href='https://github.com/slatedocs/slate'>Documentation Powered by Slate</a></li>
+            <li><a href='https://github.com/slatedocs/slate'>Documentation Powered by Brigosha</a></li>
         </ul>
     </div>
     <div class="page-wrapper">
       <div class="dark-box"></div>
       <div class="content">
         <h1 id='introduction'>Introduction</h1>
-<p>Welcome to the Kittn API! You can use our API to access Kittn API endpoints, which can get information on various cats, kittens, and breeds in our database.</p>
+<p>Welcome to the Brigosha multimedia API! You can use our API to access Brigosha multimedia API endpoints, which can enable you to make video/audio calls , share screen and stream recorded video files  on various platforms.</p>
 
-<p>We have language bindings in Shell, Ruby, Python, and JavaScript! You can view code examples in the dark area to the right, and you can switch the programming language of the examples with the tabs in the top right.</p>
-
-<p>This example API documentation page was created with <a href="https://github.com/slatedocs/slate">Slate</a>. Feel free to edit it and use it as a base for your own API&#39;s documentation.</p>
-<h1 id='authentication'>Authentication</h1>
+<p>Our api is written in JavaScript! You can view code examples in the dark area to the right.</p>
+<h1 id='authentication-todo'>Authentication // **TODO</h1>
 <blockquote>
 <p>To authorize, use this code:</p>
 </blockquote>
-<div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'kittn'</span>
+<div class="highlight"><pre class="highlight javascript tab-javascript"><code><span class="kd">const</span> <span class="nx">lib</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">brigosha_multimedia</span><span class="dl">'</span><span class="p">);</span>
 
-<span class="n">api</span> <span class="o">=</span> <span class="no">Kittn</span><span class="o">::</span><span class="no">APIClient</span><span class="p">.</span><span class="nf">authorize!</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">)</span>
-</code></pre></div><div class="highlight"><pre class="highlight python tab-python"><code><span class="kn">import</span> <span class="nn">kittn</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="n">kittn</span><span class="p">.</span><span class="n">authorize</span><span class="p">(</span><span class="s">'meowmeowmeow'</span><span class="p">)</span>
-</code></pre></div><div class="highlight"><pre class="highlight shell tab-shell"><code><span class="c"># With shell, you can just pass the correct header with each request</span>
-curl <span class="s2">"api_endpoint_here"</span>
-  <span class="nt">-H</span> <span class="s2">"Authorization: meowmeowmeow"</span>
-</code></pre></div><div class="highlight"><pre class="highlight javascript tab-javascript"><code><span class="kd">const</span> <span class="nx">kittn</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">kittn</span><span class="dl">'</span><span class="p">);</span>
-
-<span class="kd">let</span> <span class="nx">api</span> <span class="o">=</span> <span class="nx">kittn</span><span class="p">.</span><span class="nx">authorize</span><span class="p">(</span><span class="dl">'</span><span class="s1">meowmeowmeow</span><span class="dl">'</span><span class="p">);</span>
+<span class="kd">let</span> <span class="nx">client</span> <span class="o">=</span> <span class="nx">lib</span><span class="p">.</span><span class="nx">authorize</span><span class="p">(</span><span class="dl">'</span><span class="s1">apiKey</span><span class="dl">'</span><span class="p">);</span>
 </code></pre></div>
 <blockquote>
-<p>Make sure to replace <code>meowmeowmeow</code> with your API key.</p>
+<p>Make sure to replace <code>apiKey</code> with your API key.</p>
 </blockquote>
 
-<p>Kittn uses API keys to allow access to the API. You can register a new Kittn API key at our <a href="http://example.com/developers">developer portal</a>.</p>
+<!-- Kittn uses API keys to allow access to the API. You can register a new Kittn API key at our [developer portal](http://brigosha.com/developers). -->
 
-<p>Kittn expects for the API key to be included in all API requests to the server in a header that looks like the following:</p>
+<p>endpoint expects for the API key to be included in all API requests to the server in a header that looks like the following:</p>
 
-<p><code>Authorization: meowmeowmeow</code></p>
+<p><code>Authorization: apiKey</code></p>
 
 <aside class="notice">
-You must replace <code>meowmeowmeow</code> with your personal API key.
+You must replace <code>apiKey</code> with your personal API key.
 </aside>
-<h1 id='kittens'>Kittens</h1><h2 id='get-all-kittens'>Get All Kittens</h2><div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'kittn'</span>
+<h1 id='server'>Server</h1><h2 id='create-worker'>create worker</h2><div class="highlight"><pre class="highlight javascript tab-javascript"><code><span class="kd">const</span> <span class="nx">mediasoup</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">mediasoup</span><span class="dl">'</span><span class="p">)</span>
 
-<span class="n">api</span> <span class="o">=</span> <span class="no">Kittn</span><span class="o">::</span><span class="no">APIClient</span><span class="p">.</span><span class="nf">authorize!</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="p">.</span><span class="nf">kittens</span><span class="p">.</span><span class="nf">get</span>
-</code></pre></div><div class="highlight"><pre class="highlight python tab-python"><code><span class="kn">import</span> <span class="nn">kittn</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">numWorkers</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kd">let</span> <span class="nx">worker</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">mediasoup</span><span class="p">.</span><span class="nx">createWorker</span><span class="p">({</span>
+            <span class="na">logLevel</span><span class="p">:</span> <span class="nx">config</span><span class="p">.</span><span class="nx">mediasoup</span><span class="p">.</span><span class="nx">worker</span><span class="p">.</span><span class="nx">logLevel</span><span class="p">,</span>
+            <span class="na">logTags</span><span class="p">:</span> <span class="nx">config</span><span class="p">.</span><span class="nx">mediasoup</span><span class="p">.</span><span class="nx">worker</span><span class="p">.</span><span class="nx">logTags</span><span class="p">,</span>
+            <span class="na">rtcMinPort</span><span class="p">:</span> <span class="nx">config</span><span class="p">.</span><span class="nx">mediasoup</span><span class="p">.</span><span class="nx">worker</span><span class="p">.</span><span class="nx">rtcMinPort</span><span class="p">,</span>
+            <span class="na">rtcMaxPort</span><span class="p">:</span> <span class="nx">config</span><span class="p">.</span><span class="nx">mediasoup</span><span class="p">.</span><span class="nx">worker</span><span class="p">.</span><span class="nx">rtcMaxPort</span><span class="p">,</span>
+        <span class="p">})</span>
 
-<span class="n">api</span> <span class="o">=</span> <span class="n">kittn</span><span class="p">.</span><span class="n">authorize</span><span class="p">(</span><span class="s">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="p">.</span><span class="n">kittens</span><span class="p">.</span><span class="n">get</span><span class="p">()</span>
-</code></pre></div><div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="s2">"http://example.com/api/kittens"</span>
-  <span class="nt">-H</span> <span class="s2">"Authorization: meowmeowmeow"</span>
-</code></pre></div><div class="highlight"><pre class="highlight javascript tab-javascript"><code><span class="kd">const</span> <span class="nx">kittn</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">kittn</span><span class="dl">'</span><span class="p">);</span>
-
-<span class="kd">let</span> <span class="nx">api</span> <span class="o">=</span> <span class="nx">kittn</span><span class="p">.</span><span class="nx">authorize</span><span class="p">(</span><span class="dl">'</span><span class="s1">meowmeowmeow</span><span class="dl">'</span><span class="p">);</span>
-<span class="kd">let</span> <span class="nx">kittens</span> <span class="o">=</span> <span class="nx">api</span><span class="p">.</span><span class="nx">kittens</span><span class="p">.</span><span class="kd">get</span><span class="p">();</span>
+        <span class="nx">worker</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="dl">'</span><span class="s1">died</span><span class="dl">'</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+            <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="dl">'</span><span class="s1">mediasoup worker died, exiting in 2 seconds... [pid:%d]</span><span class="dl">'</span><span class="p">,</span> <span class="nx">worker</span><span class="p">.</span><span class="nx">pid</span><span class="p">);</span>
+            <span class="nx">setTimeout</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="nx">process</span><span class="p">.</span><span class="nx">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="mi">2000</span><span class="p">);</span>
+        <span class="p">})</span>
+    <span class="p">}</span>
 </code></pre></div>
 <blockquote>
-<p>The above command returns JSON structured like this:</p>
+<p>The above code creates a thread on each core of the CPU</p>
 </blockquote>
-<div class="highlight"><pre class="highlight json tab-json"><code><span class="p">[</span><span class="w">
-  </span><span class="p">{</span><span class="w">
-    </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Fluffums"</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"breed"</span><span class="p">:</span><span class="w"> </span><span class="s2">"calico"</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"fluffiness"</span><span class="p">:</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"cuteness"</span><span class="p">:</span><span class="w"> </span><span class="mi">7</span><span class="w">
-  </span><span class="p">},</span><span class="w">
-  </span><span class="p">{</span><span class="w">
-    </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Max"</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"breed"</span><span class="p">:</span><span class="w"> </span><span class="s2">"unknown"</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"fluffiness"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
-    </span><span class="nl">"cuteness"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="w">
-  </span><span class="p">}</span><span class="w">
-</span><span class="p">]</span><span class="w">
-</span></code></pre></div>
-<p>This endpoint retrieves all kittens.</p>
-<h3 id='http-request'>HTTP Request</h3>
-<p><code>GET http://example.com/api/kittens</code></p>
-<h3 id='query-parameters'>Query Parameters</h3>
+
+<p>This should create threads on each core of the CPU.</p>
+<h3 id='run'>RUN</h3>
+<p><code>code executes at server startup</code></p>
+<h2 id='create-router'>Create Router</h2><div class="highlight"><pre class="highlight javascript tab-javascript"><code><span class="nx">worker</span><span class="p">.</span><span class="nx">createRouter</span><span class="p">({</span>
+            <span class="nx">mediaCodecs</span>
+        <span class="p">}).</span><span class="nx">then</span><span class="p">(</span><span class="k">async</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">router</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">this</span><span class="p">.</span><span class="nx">router</span> <span class="o">=</span> <span class="nx">router</span><span class="p">;</span>
+            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">router created</span><span class="dl">'</span><span class="p">);</span>
+            <span class="p">.........</span>
+        <span class="p">}</span>
+</code></pre></div>
+<p>This function creates a router to route media stream  between specific clients.</p>
+
+<aside class="warning">To create a router you must pass the media codec configuration<code>&lt;
+      router: {
+        mediaCodecs: 
+          [
+            {
+              kind: 'audio',
+              mimeType: 'audio/opus',
+              clockRate: 48000,
+              channels: 2
+            },
+            {
+              kind: 'video',
+              mimeType: 'video/VP8',
+              clockRate: 90000,
+              parameters:
+                {
+                  'x-google-start-bitrate': 1000
+                }
+            },
+          ]
+      },&gt;</code></aside>
+<h2 id='create-transport'>Create Transport</h2><div class="highlight"><pre class="highlight javascript tab-javascript"><code> <span class="kd">const</span> <span class="nx">transport</span> <span class="o">=</span> <span class="k">await</span> <span class="k">this</span><span class="p">.</span><span class="nx">router</span><span class="p">.</span><span class="nx">createWebRtcTransport</span><span class="p">({</span>
+            <span class="na">listenIps</span><span class="p">:</span> <span class="nx">config</span><span class="p">.</span><span class="nx">mediasoup</span><span class="p">.</span><span class="nx">webRtcTransport</span><span class="p">.</span><span class="nx">listenIps</span><span class="p">,</span>
+            <span class="na">enableUdp</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+            <span class="na">enableTcp</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+            <span class="na">preferUdp</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+            <span class="nx">initialAvailableOutgoingBitrate</span><span class="p">,</span>
+        <span class="p">});</span>
+</code></pre></div>
+<blockquote>
+<p>The above command establishes a communication between server and client to transport media streams:</p>
+</blockquote>
+
+<p>This code initializes the communication that happens between clients.</p>
+<h3 id='function-parameters'>Function Parameters</h3>
 <table><thead>
 <tr>
 <th>Parameter</th>
-<th>Default</th>
 <th>Description</th>
 </tr>
 </thead><tbody>
 <tr>
-<td>include_cats</td>
-<td>false</td>
-<td>If set to true, the result will also include cats.</td>
+<td>listenIps</td>
+<td>listenIps are the IP addresses of the server so that clents can send media strem to the server</td>
 </tr>
 <tr>
-<td>available</td>
-<td>true</td>
-<td>If set to false, the result will include kittens that have already been adopted.</td>
+<td>enableUdp</td>
+<td>uses UDP protocol</td>
+</tr>
+<tr>
+<td>enableTcp</td>
+<td>uses TCP protocol</td>
+</tr>
+<tr>
+<td>preferUdp</td>
+<td>uses Udp by default</td>
+</tr>
+<tr>
+<td>initialAvailableOutgoingBitrate</td>
+<td>bitrate that is configured by defuault as server supported bitrate</td>
 </tr>
 </tbody></table>
-
-<aside class="success">
-Remember — a happy kitten is an authenticated kitten!
-</aside>
-<h2 id='get-a-specific-kitten'>Get a Specific Kitten</h2><div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'kittn'</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="no">Kittn</span><span class="o">::</span><span class="no">APIClient</span><span class="p">.</span><span class="nf">authorize!</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="p">.</span><span class="nf">kittens</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-</code></pre></div><div class="highlight"><pre class="highlight python tab-python"><code><span class="kn">import</span> <span class="nn">kittn</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="n">kittn</span><span class="p">.</span><span class="n">authorize</span><span class="p">(</span><span class="s">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="p">.</span><span class="n">kittens</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-</code></pre></div><div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="s2">"http://example.com/api/kittens/2"</span>
-  <span class="nt">-H</span> <span class="s2">"Authorization: meowmeowmeow"</span>
-</code></pre></div><div class="highlight"><pre class="highlight javascript tab-javascript"><code><span class="kd">const</span> <span class="nx">kittn</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">kittn</span><span class="dl">'</span><span class="p">);</span>
-
-<span class="kd">let</span> <span class="nx">api</span> <span class="o">=</span> <span class="nx">kittn</span><span class="p">.</span><span class="nx">authorize</span><span class="p">(</span><span class="dl">'</span><span class="s1">meowmeowmeow</span><span class="dl">'</span><span class="p">);</span>
-<span class="kd">let</span> <span class="nx">max</span> <span class="o">=</span> <span class="nx">api</span><span class="p">.</span><span class="nx">kittens</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
+<h2 id='produce-media'>Produce Media</h2><div class="highlight"><pre class="highlight javascript tab-javascript"><code><span class="k">async</span> <span class="nx">produce</span><span class="p">(</span><span class="nx">socket_id</span><span class="p">,</span> <span class="nx">producerTransportId</span><span class="p">,</span> <span class="nx">rtpParameters</span><span class="p">,</span> <span class="nx">kind</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="k">new</span> <span class="nb">Promise</span><span class="p">(</span><span class="k">async</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">resolve</span><span class="p">,</span> <span class="nx">reject</span><span class="p">)</span> <span class="p">{</span>
+            <span class="kd">let</span> <span class="nx">producer</span> <span class="o">=</span> <span class="k">await</span> <span class="k">this</span><span class="p">.</span><span class="nx">peers</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="nx">socket_id</span><span class="p">).</span><span class="nx">createProducer</span><span class="p">(</span><span class="nx">producerTransportId</span><span class="p">,</span> <span class="nx">rtpParameters</span><span class="p">,</span> <span class="nx">kind</span><span class="p">)</span>
+            <span class="nx">resolve</span><span class="p">(</span><span class="nx">producer</span><span class="p">.</span><span class="nx">id</span><span class="p">)</span>
+            <span class="p">.......</span>
+        <span class="p">}</span>
+<span class="p">}</span>
 </code></pre></div>
 <blockquote>
-<p>The above command returns JSON structured like this:</p>
+<p>The above command produces a new media stream and transmit it over to all clients:</p>
 </blockquote>
-<div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
-  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
-  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Max"</span><span class="p">,</span><span class="w">
-  </span><span class="nl">"breed"</span><span class="p">:</span><span class="w"> </span><span class="s2">"unknown"</span><span class="p">,</span><span class="w">
-  </span><span class="nl">"fluffiness"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
-  </span><span class="nl">"cuteness"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="w">
-</span><span class="p">}</span><span class="w">
-</span></code></pre></div>
-<p>This endpoint retrieves a specific kitten.</p>
 
-<aside class="warning">Inside HTML code blocks like this one, you can't use Markdown, so use <code>&lt;code&gt;</code> blocks to denote code.</aside>
-<h3 id='http-request-2'>HTTP Request</h3>
-<p><code>GET http://example.com/kittens/&lt;ID&gt;</code></p>
-<h3 id='url-parameters'>URL Parameters</h3>
+<p>This code produces audio or video stram and starts sending.</p>
+<h3 id='function-parameters-2'>Function Parameters</h3>
 <table><thead>
 <tr>
 <th>Parameter</th>
@@ -476,38 +546,34 @@ Remember — a happy kitten is an authenticated kitten!
 </tr>
 </thead><tbody>
 <tr>
-<td>ID</td>
-<td>The ID of the kitten to retrieve</td>
+<td>socket_id</td>
+<td>socket id of the client that is producing the stream</td>
+</tr>
+<tr>
+<td>producerTransportId</td>
+<td>transport id of the producer</td>
+</tr>
+<tr>
+<td>rtpParameters</td>
+<td>media codec configuration</td>
+</tr>
+<tr>
+<td>kind</td>
+<td>type of stream , e.g- audio/video</td>
 </tr>
 </tbody></table>
-<h2 id='delete-a-specific-kitten'>Delete a Specific Kitten</h2><div class="highlight"><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'kittn'</span>
+<h2 id='consume-media'>Consume Media</h2><div class="highlight"><pre class="highlight javascript tab-javascript"><code> <span class="k">async</span> <span class="nx">consume</span><span class="p">(</span><span class="nx">socket_id</span><span class="p">,</span> <span class="nx">consumer_transport_id</span><span class="p">,</span> <span class="nx">producer_id</span><span class="p">,</span>  <span class="nx">rtpCapabilities</span><span class="p">)</span> <span class="p">{</span>
 
-<span class="n">api</span> <span class="o">=</span> <span class="no">Kittn</span><span class="o">::</span><span class="no">APIClient</span><span class="p">.</span><span class="nf">authorize!</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="p">.</span><span class="nf">kittens</span><span class="p">.</span><span class="nf">delete</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-</code></pre></div><div class="highlight"><pre class="highlight python tab-python"><code><span class="kn">import</span> <span class="nn">kittn</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="n">kittn</span><span class="p">.</span><span class="n">authorize</span><span class="p">(</span><span class="s">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="p">.</span><span class="n">kittens</span><span class="p">.</span><span class="n">delete</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-</code></pre></div><div class="highlight"><pre class="highlight shell tab-shell"><code>curl <span class="s2">"http://example.com/api/kittens/2"</span>
-  <span class="nt">-X</span> DELETE
-  <span class="nt">-H</span> <span class="s2">"Authorization: meowmeowmeow"</span>
-</code></pre></div><div class="highlight"><pre class="highlight javascript tab-javascript"><code><span class="kd">const</span> <span class="nx">kittn</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">'</span><span class="s1">kittn</span><span class="dl">'</span><span class="p">);</span>
-
-<span class="kd">let</span> <span class="nx">api</span> <span class="o">=</span> <span class="nx">kittn</span><span class="p">.</span><span class="nx">authorize</span><span class="p">(</span><span class="dl">'</span><span class="s1">meowmeowmeow</span><span class="dl">'</span><span class="p">);</span>
-<span class="kd">let</span> <span class="nx">max</span> <span class="o">=</span> <span class="nx">api</span><span class="p">.</span><span class="nx">kittens</span><span class="p">.</span><span class="k">delete</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
+        <span class="kd">let</span> <span class="p">{</span><span class="nx">consumer</span><span class="p">,</span> <span class="nx">params</span><span class="p">}</span> <span class="o">=</span> <span class="k">await</span> <span class="k">this</span><span class="p">.</span><span class="nx">peers</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="nx">socket_id</span><span class="p">).</span><span class="nx">createConsumer</span><span class="p">(</span><span class="nx">consumer_transport_id</span><span class="p">,</span> <span class="nx">producer_id</span><span class="p">,</span> <span class="nx">rtpCapabilities</span><span class="p">)</span>
+        <span class="p">............</span>
+    <span class="p">}</span>
 </code></pre></div>
 <blockquote>
-<p>The above command returns JSON structured like this:</p>
+<p>The above command creates a consumer connection to stream and transmit it over to that client:</p>
 </blockquote>
-<div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
-  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
-  </span><span class="nl">"deleted"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">":("</span><span class="w">
-</span><span class="p">}</span><span class="w">
-</span></code></pre></div>
-<p>This endpoint deletes a specific kitten.</p>
-<h3 id='http-request-3'>HTTP Request</h3>
-<p><code>DELETE http://example.com/kittens/&lt;ID&gt;</code></p>
-<h3 id='url-parameters-2'>URL Parameters</h3>
+
+<p>This code creates consumer connection of audio or video stram and starts transmitting.</p>
+<h3 id='function-parameters-3'>Function Parameters</h3>
 <table><thead>
 <tr>
 <th>Parameter</th>
@@ -515,8 +581,719 @@ Remember — a happy kitten is an authenticated kitten!
 </tr>
 </thead><tbody>
 <tr>
-<td>ID</td>
-<td>The ID of the kitten to delete</td>
+<td>socket_id</td>
+<td>socket id of the client that is receiving the stream</td>
+</tr>
+<tr>
+<td>consumer_transport_id</td>
+<td>transport id of the receiver</td>
+</tr>
+<tr>
+<td>rtpParameters</td>
+<td>media codec configuration</td>
+</tr>
+<tr>
+<td>producer_id</td>
+<td>id of the client that is sending the stream</td>
+</tr>
+<tr>
+<td>rtpCapabilities</td>
+<td>media codec configuration of the client</td>
+</tr>
+</tbody></table>
+<h2 id='active-speaker-detection'>Active Speaker Detection</h2><div class="highlight"><pre class="highlight javascript tab-javascript"><code>   <span class="k">this</span><span class="p">.</span><span class="nx">audioLevelObserver</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">router</span><span class="p">.</span><span class="nx">createAudioLevelObserver</span><span class="p">(</span>
+                <span class="p">{</span>
+                  <span class="na">maxEntries</span> <span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+                  <span class="na">threshold</span>  <span class="p">:</span> <span class="o">-</span><span class="mi">80</span><span class="p">,</span>
+                  <span class="na">interval</span>   <span class="p">:</span> <span class="mi">2000</span>
+                <span class="p">});</span>
+</code></pre></div>
+<blockquote>
+<p>The above command creates a active speaker detector listener:</p>
+</blockquote>
+
+<p>This code creates a listener that will detect the active speaker.</p>
+<h3 id='function-parameters-4'>Function Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>maxEntries</td>
+<td>number of active speaker detected</td>
+</tr>
+<tr>
+<td>threshold</td>
+<td>voice detected in dB</td>
+</tr>
+<tr>
+<td>interval</td>
+<td>listens in timeinterval in millisecond</td>
+</tr>
+</tbody></table>
+<h2 id='notification-event'>Notification Event</h2><div class="highlight"><pre class="highlight javascript tab-javascript"><code>   <span class="nx">room</span><span class="p">.</span><span class="nx">broadCast</span><span class="p">(</span><span class="nx">socket</span><span class="p">.</span><span class="nx">id</span><span class="p">,</span><span class="dl">'</span><span class="s1">eventNotification</span><span class="dl">'</span><span class="p">,</span> <span class="p">{</span><span class="na">user</span><span class="p">:</span> <span class="nx">name</span><span class="p">,</span> <span class="nx">action</span><span class="p">,</span> <span class="nx">option</span><span class="p">})</span>
+</code></pre></div>
+<blockquote>
+<p>The above command sends notification to clients:</p>
+</blockquote>
+
+<p>This code sends notification to clients.</p>
+
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>socket.id</td>
+<td>socket id of client wich generates the event, notification will not be sent to that client.</td>
+</tr>
+<tr>
+<td>eventNotification</td>
+<td>name of the event</td>
+</tr>
+<tr>
+<td>user</td>
+<td>name of the user who generates the event or message</td>
+</tr>
+<tr>
+<td>action</td>
+<td>what type of event is triggered</td>
+</tr>
+<tr>
+<td>option</td>
+<td>optional message that can be sent such that description or warning</td>
+</tr>
+</tbody></table>
+<h1 id='client'>Client</h1><h2 id='introduction'>Introduction</h2>
+<p>Welcome to the Brigosha multimedia client API! You can use our API to access Brigosha multimedia API server, which can enable you to make video/audio calls , share screen and stream recorded video files  on various platforms.</p>
+<h2 id='create-client'>Create Client</h2><div class="highlight"><pre class="highlight javascript tab-javascript"><code> <span class="nx">rc</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">RoomClient</span><span class="p">(</span><span class="dl">'</span><span class="s1">room_name</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">user_name</span><span class="dl">'</span><span class="p">,</span> <span class="nx">callback</span><span class="p">);</span>
+</code></pre></div>
+<blockquote>
+<p>The above command creates and intialize a client instance:</p>
+</blockquote>
+
+<p>This code creates and initializes the client instance.</p>
+<h3 id='function-parameters'>Function Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>room_name</td>
+<td>clients can communicate with a common room name</td>
+</tr>
+<tr>
+<td>user_name</td>
+<td>name of the user joining the streaming group</td>
+</tr>
+<tr>
+<td>callback</td>
+<td>functions that will be called after creating a client instance</td>
+</tr>
+</tbody></table>
+<h2 id='create-room'>Create Room</h2><div class="highlight"><pre class="highlight javascript tab-javascript"><code> <span class="k">async</span> <span class="nx">createRoom</span><span class="p">(</span><span class="nx">room_id</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">await</span> <span class="nx">socket</span>
+      <span class="p">.</span><span class="nx">request</span><span class="p">(</span><span class="dl">'</span><span class="s1">createRoom</span><span class="dl">'</span><span class="p">,</span> <span class="p">{</span>
+        <span class="nx">room_id</span><span class="p">,</span>
+      <span class="p">})</span>
+      <span class="p">.</span><span class="k">catch</span><span class="p">((</span><span class="nx">err</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">err</span><span class="p">);</span>
+      <span class="p">});</span>
+  <span class="p">}</span>
+</code></pre></div>
+<blockquote>
+<p>The above command creates a room </p>
+</blockquote>
+
+<p>This code creates a room.</p>
+<h3 id='function-parameters-2'>Function Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>room_name</td>
+<td>clients can communicate with a common room name</td>
+</tr>
+</tbody></table>
+<h2 id='join-room'>Join Room</h2><div class="highlight"><pre class="highlight javascript tab-javascript"><code><span class="k">async</span> <span class="nx">join</span><span class="p">(</span><span class="nx">name</span><span class="p">,</span> <span class="nx">room_id</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">socket</span>
+      <span class="p">.</span><span class="nx">request</span><span class="p">(</span><span class="dl">'</span><span class="s1">join</span><span class="dl">'</span><span class="p">,</span> <span class="p">{</span>
+        <span class="nx">name</span><span class="p">,</span>
+        <span class="nx">room_id</span><span class="p">,</span>
+      <span class="p">})</span>
+      <span class="p">.</span><span class="nx">then</span><span class="p">(</span>
+       <span class="p">............</span>
+        <span class="p">},</span>
+      <span class="p">)</span>
+      <span class="p">.</span><span class="k">catch</span><span class="p">((</span><span class="nx">e</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">failed to join </span><span class="dl">'</span><span class="p">,</span> <span class="nx">e</span><span class="p">);</span>
+      <span class="p">});</span>
+  <span class="p">}</span>
+</code></pre></div>
+<blockquote>
+<p>The above command joins the user to the room specified</p>
+</blockquote>
+
+<p>This code joins the user to a room.</p>
+<h3 id='function-parameters-3'>Function Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>name</td>
+<td>name of the user who joins the room</td>
+</tr>
+<tr>
+<td>room_id</td>
+<td>name of the room  which the user wants to join</td>
+</tr>
+</tbody></table>
+<h2 id='websocket-listeners'>Websocket Listeners</h2><h3 id='consumer-closed'>Consumer Closed</h3><div class="highlight"><pre class="highlight javascript tab-javascript"><code><span class="nx">socket</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span>
+      <span class="dl">'</span><span class="s1">consumerClosed</span><span class="dl">'</span><span class="p">,</span>
+      <span class="kd">function</span> <span class="p">({</span><span class="nx">consumer_id</span><span class="p">})</span> <span class="p">{</span>
+        <span class="p">........</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">removeConsumer</span><span class="p">(</span><span class="nx">consumer_id</span><span class="p">);</span>
+      <span class="p">}.</span><span class="nx">bind</span><span class="p">(</span><span class="k">this</span><span class="p">),</span>
+    <span class="p">);</span>
+</code></pre></div>
+<blockquote>
+<p>The above command triggers when a consumer is closed</p>
+</blockquote>
+
+<p>websocket event when a consumer is closed.</p>
+<h3 id='function-parameters-4'>Function Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>consumer_id</td>
+<td>id of the remote stream subscriber</td>
+</tr>
+</tbody></table>
+<h3 id='new-producer-found'>New Producer Found</h3><div class="highlight"><pre class="highlight javascript tab-javascript"><code><span class="nx">socket</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span>
+      <span class="dl">'</span><span class="s1">newProducers</span><span class="dl">'</span><span class="p">,</span>
+      <span class="k">async</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="p">{</span><span class="nx">producer_id</span><span class="p">,</span> <span class="nx">producer_socket_id</span><span class="p">}</span> <span class="k">of</span> <span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+          <span class="k">await</span> <span class="k">this</span><span class="p">.</span><span class="nx">consume</span><span class="p">(</span><span class="nx">producer_id</span><span class="p">,</span> <span class="nx">producer_socket_id</span><span class="p">);</span>
+        <span class="p">}</span>
+      <span class="p">}.</span><span class="nx">bind</span><span class="p">(</span><span class="k">this</span><span class="p">),</span>
+    <span class="p">);</span>
+</code></pre></div>
+<blockquote>
+<p>The above command triggers when a client start audio or video stream</p>
+</blockquote>
+
+<p>websocket event when a new stream received.</p>
+<h3 id='function-parameters-5'>Function Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>producer_id</td>
+<td>id of the remote producer stream</td>
+</tr>
+<tr>
+<td>producer_socket_id</td>
+<td>id of the socket of remote producer</td>
+</tr>
+</tbody></table>
+<h3 id='socket-disconnect'>Socket Disconnect</h3><div class="highlight"><pre class="highlight javascript tab-javascript"><code><span class="nx">socket</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span>
+      <span class="dl">'</span><span class="s1">disconnect</span><span class="dl">'</span><span class="p">,</span>
+      <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">exit</span><span class="p">(</span><span class="kc">true</span><span class="p">);</span>
+      <span class="p">}.</span><span class="nx">bind</span><span class="p">(</span><span class="k">this</span><span class="p">),</span>
+    <span class="p">);</span>
+</code></pre></div>
+<blockquote>
+<p>The above command triggers when a client is disconnected from server</p>
+</blockquote>
+
+<p>websocket event when a client disconnects.</p>
+<h3 id='existing-online-users'>Existing Online Users</h3><div class="highlight"><pre class="highlight javascript tab-javascript"><code> <span class="nx">socket</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span>
+      <span class="dl">'</span><span class="s1">userList</span><span class="dl">'</span><span class="p">,</span>
+      <span class="kd">function</span> <span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">userList</span> <span class="o">=</span> <span class="nx">data</span><span class="p">;</span>
+      <span class="p">}.</span><span class="nx">bind</span><span class="p">(</span><span class="k">this</span><span class="p">),</span>
+    <span class="p">);</span>
+</code></pre></div>
+<blockquote>
+<p>The above command triggers when a client joins a room </p>
+</blockquote>
+
+<p>websocket event to get all the online users.</p>
+<h3 id='function-parameters-6'>Function Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>userList</td>
+<td>array of users having username and their socket id</td>
+</tr>
+</tbody></table>
+<h3 id='new-user'>New User</h3><div class="highlight"><pre class="highlight javascript tab-javascript"><code> <span class="nx">socket</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span>
+      <span class="dl">'</span><span class="s1">newUserJoined</span><span class="dl">'</span><span class="p">,</span>
+      <span class="kd">function</span> <span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">userList</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">data</span><span class="p">);</span>
+      <span class="p">}.</span><span class="nx">bind</span><span class="p">(</span><span class="k">this</span><span class="p">),</span>
+    <span class="p">);</span>
+</code></pre></div>
+<blockquote>
+<p>The above command triggers when another new client joins a room </p>
+</blockquote>
+
+<p>websocket event to get details of new user in the room.</p>
+<h3 id='function-parameters-7'>Function Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>username</td>
+<td>the name of the user who joins the room</td>
+</tr>
+<tr>
+<td>user_socket_id</td>
+<td>socket id of the user to send unicast messages</td>
+</tr>
+</tbody></table>
+<h3 id='user-left'>User Left</h3><div class="highlight"><pre class="highlight javascript tab-javascript"><code>   <span class="nx">socket</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span>
+      <span class="dl">'</span><span class="s1">userLeft</span><span class="dl">'</span><span class="p">,</span>
+      <span class="kd">function</span> <span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">userList</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">userList</span><span class="p">.</span><span class="nx">filter</span><span class="p">(</span>
+          <span class="p">(</span><span class="nx">user</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">user</span><span class="p">.</span><span class="nx">user_socket_id</span> <span class="o">!==</span> <span class="nx">data</span><span class="p">.</span><span class="nx">user_socket_id</span><span class="p">,</span>
+        <span class="p">);</span>
+      <span class="p">}.</span><span class="nx">bind</span><span class="p">(</span><span class="k">this</span><span class="p">),</span>
+    <span class="p">);</span>
+</code></pre></div>
+<blockquote>
+<p>The above command triggers when client leaves a room </p>
+</blockquote>
+
+<p>websocket event to get details of user in the room who leaves the room.
+<code>only user_socket_id shall be received in this case</code></p>
+<h3 id='function-parameters-8'>Function Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>user_socket_id</td>
+<td>socket id of the user to send unicast messages</td>
+</tr>
+</tbody></table>
+<h3 id='common-event-notification'>Common Event Notification</h3><div class="highlight"><pre class="highlight javascript tab-javascript"><code>  <span class="nx">socket</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span>
+      <span class="dl">'</span><span class="s1">eventNotification</span><span class="dl">'</span><span class="p">,</span>
+      <span class="kd">function</span> <span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">eventNotification</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">data</span><span class="p">);</span>
+      <span class="p">}.</span><span class="nx">bind</span><span class="p">(</span><span class="k">this</span><span class="p">),</span>
+    <span class="p">);</span>
+</code></pre></div>
+<blockquote>
+<p>The above command triggers when server sends activity notification , e.g - userJoined, userLeft ,audioStarted, ...</p>
+</blockquote>
+
+<p>websocket event to display activity notification from server.</p>
+<h3 id='function-parameters-9'>Function Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>activity</td>
+<td>name of the activity , e.g - start, pause, resume, joined, left, disconnected</td>
+</tr>
+<tr>
+<td>user</td>
+<td>name of the user who triggered the event</td>
+</tr>
+<tr>
+<td>option</td>
+<td>optional data can be displayed</td>
+</tr>
+</tbody></table>
+<h3 id='active-speaker'>Active Speaker</h3><div class="highlight"><pre class="highlight javascript tab-javascript"><code> <span class="nx">socket</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span>
+      <span class="dl">'</span><span class="s1">activeSpeaker</span><span class="dl">'</span><span class="p">,</span>
+      <span class="kd">function</span> <span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">activeSpeaker</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">remoteMedia</span><span class="p">.</span><span class="nx">filter</span><span class="p">(</span>
+          <span class="p">(</span><span class="nx">media</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">media</span><span class="p">.</span><span class="nx">audio</span> <span class="o">&amp;&amp;</span> <span class="nx">media</span><span class="p">.</span><span class="nx">audio</span><span class="p">.</span><span class="nx">producer_id</span> <span class="o">===</span> <span class="nx">data</span><span class="p">.</span><span class="nx">producerId</span><span class="p">,</span>
+        <span class="p">);</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">activeSpeaker</span> <span class="o">=</span>
+          <span class="k">this</span><span class="p">.</span><span class="nx">activeSpeaker</span><span class="p">.</span><span class="nx">length</span> <span class="o">===</span> <span class="mi">0</span>
+            <span class="p">?</span> <span class="p">{</span><span class="na">userName</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Me</span><span class="dl">'</span><span class="p">}</span>
+            <span class="p">:</span> <span class="k">this</span><span class="p">.</span><span class="nx">activeSpeaker</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span>
+      <span class="p">}.</span><span class="nx">bind</span><span class="p">(</span><span class="k">this</span><span class="p">),</span>
+    <span class="p">);</span>
+</code></pre></div>
+<blockquote>
+<p>The above command triggers in a time interval and receives the active speaker from the server</p>
+</blockquote>
+
+<p>websocket event to display active speaker.</p>
+<h3 id='function-parameters-10'>Function Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>producerId</td>
+<td>id of the producer that has the highest noise (active speaker)</td>
+</tr>
+<tr>
+<td>sound</td>
+<td>noise level in dB ( from -127 to 0, -80 is default)</td>
+</tr>
+</tbody></table>
+<h3 id='pause-remote-audio-video'>Pause Remote audio/video</h3><div class="highlight"><pre class="highlight javascript tab-javascript"><code><span class="nx">socket</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span>
+      <span class="dl">'</span><span class="s1">pauseProducerRemoteRcv</span><span class="dl">'</span><span class="p">,</span>
+      <span class="kd">function</span> <span class="p">(</span><span class="nx">producer_id</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">producers</span><span class="p">.</span><span class="nx">has</span><span class="p">(</span><span class="nx">producer_id</span><span class="p">))</span> <span class="p">{</span>
+          <span class="k">this</span><span class="p">.</span><span class="nx">producers</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="nx">producer_id</span><span class="p">).</span><span class="nx">pause</span><span class="p">();</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+          <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">not my producer to pause</span><span class="dl">'</span><span class="p">);</span>
+        <span class="p">}</span>
+      <span class="p">}.</span><span class="nx">bind</span><span class="p">(</span><span class="k">this</span><span class="p">),</span>
+    <span class="p">);</span>
+</code></pre></div>
+<blockquote>
+<p>The above command triggers when a remote user requests to pause stream.</p>
+</blockquote>
+
+<p>websocket event to pause stream.</p>
+<h3 id='function-parameters-11'>Function Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>producerId</td>
+<td>id of the producer for which the pause request is made.</td>
+</tr>
+</tbody></table>
+<h3 id='resume-remote-audio-video'>Resume Remote audio/video</h3><div class="highlight"><pre class="highlight javascript tab-javascript"><code> <span class="nx">socket</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span>
+      <span class="dl">'</span><span class="s1">resumeProducerRemoteRcv</span><span class="dl">'</span><span class="p">,</span>
+      <span class="kd">function</span> <span class="p">(</span><span class="nx">producer_id</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">producers</span><span class="p">.</span><span class="nx">has</span><span class="p">(</span><span class="nx">producer_id</span><span class="p">))</span> <span class="p">{</span>
+          <span class="k">this</span><span class="p">.</span><span class="nx">producers</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="nx">producer_id</span><span class="p">).</span><span class="nx">resume</span><span class="p">();</span>
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+          <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">not my producer to resume</span><span class="dl">'</span><span class="p">);</span>
+        <span class="p">}</span>
+      <span class="p">}.</span><span class="nx">bind</span><span class="p">(</span><span class="k">this</span><span class="p">),</span>
+    <span class="p">);</span>
+</code></pre></div>
+<blockquote>
+<p>The above command triggers when a remote user requests to resume stream.</p>
+</blockquote>
+
+<p>websocket event to resume stream.</p>
+<h3 id='function-parameters-12'>Function Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>producerId</td>
+<td>id of the producer for which the resume request is made.</td>
+</tr>
+</tbody></table>
+<h2 id='server-configuration'>Server Configuration</h2><div class="highlight"><pre class="highlight javascript tab-javascript"><code> <span class="kd">const</span> <span class="nx">data</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">socket</span><span class="p">.</span><span class="nx">request</span><span class="p">(</span><span class="dl">'</span><span class="s1">getRouterRtpCapabilities</span><span class="dl">'</span><span class="p">);</span>
+</code></pre></div>
+<blockquote>
+<p>The above command receives the media configuration from server</p>
+</blockquote>
+
+<p>get the configuration of media codec</p>
+<h3 id='function-parameters-13'>Function Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>getRouterRtpCapabilities</td>
+<td>configuration object</td>
+</tr>
+</tbody></table>
+<h2 id='register-webrtc'>Register WebRTC</h2><div class="highlight"><pre class="highlight javascript tab-javascript"><code> <span class="nx">registerGlobals</span><span class="p">();</span>
+</code></pre></div>
+<blockquote>
+<p>WebRTC  RTCPeerConnection, RTCIceCandidate, RTCSessionDescription initialization</p>
+</blockquote>
+
+<p>Initialize WebRTC  RTCPeerConnection, RTCIceCandidate, RTCSessionDescription</p>
+<h2 id='create-device-type'>Create Device Type</h2><div class="highlight"><pre class="highlight javascript tab-javascript"><code>   <span class="k">try</span> <span class="p">{</span>
+      <span class="nx">device</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">mediasoupClient</span><span class="p">.</span><span class="nx">Device</span><span class="p">({</span><span class="na">handlerName</span><span class="p">:</span> <span class="dl">'</span><span class="s1">ReactNative</span><span class="dl">'</span><span class="p">});</span>
+    <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">if</span> <span class="p">(</span><span class="nx">error</span><span class="p">.</span><span class="nx">name</span> <span class="o">===</span> <span class="dl">'</span><span class="s1">UnsupportedError</span><span class="dl">'</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="dl">'</span><span class="s1">Device not supported</span><span class="dl">'</span><span class="p">);</span>
+      <span class="p">}</span>
+      <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="dl">'</span><span class="s1">failed to load device</span><span class="dl">'</span><span class="p">,</span> <span class="nx">error</span><span class="p">);</span>
+    <span class="p">}</span>
+</code></pre></div>
+<blockquote>
+<p>Create a device instance to record audio , video </p>
+</blockquote>
+
+<p>Select and initialize client device type</p>
+<h3 id='function-parameters-14'>Function Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>ReactNative</td>
+<td>platform name of the handler</td>
+</tr>
+</tbody></table>
+<h2 id='matches-media-configuration'>Matches Media Configuration</h2><div class="highlight"><pre class="highlight javascript tab-javascript"><code>  <span class="kd">const</span> <span class="nx">data</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">socket</span><span class="p">.</span><span class="nx">request</span><span class="p">(</span><span class="dl">'</span><span class="s1">createWebRtcTransport</span><span class="dl">'</span><span class="p">,</span> <span class="p">{</span>
+        <span class="na">forceTcp</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+        <span class="na">rtpCapabilities</span><span class="p">:</span> <span class="nx">device</span><span class="p">.</span><span class="nx">rtpCapabilities</span><span class="p">,</span>
+      <span class="p">});</span>
+</code></pre></div>
+<blockquote>
+<p>Send device media configuration to the server and receives server media configuration</p>
+</blockquote>
+
+<p>Request the server to send a matching media configuration</p>
+<h3 id='function-parameters-15'>Function Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>forceTcp</td>
+<td>client used tcp over udp to communicate</td>
+</tr>
+<tr>
+<td>rtpCapabilities</td>
+<td>media configuration of the client device</td>
+</tr>
+</tbody></table>
+<h2 id='create-sendtransport'>Create sendTransport</h2><div class="highlight"><pre class="highlight javascript tab-javascript"><code>  <span class="k">this</span><span class="p">.</span><span class="nx">producerTransport</span> <span class="o">=</span> <span class="nx">device</span><span class="p">.</span><span class="nx">createSendTransport</span><span class="p">(</span><span class="nx">data</span><span class="p">);</span>
+</code></pre></div>
+<blockquote>
+<p>Create a communinication layer between client and server</p>
+</blockquote>
+
+<p>The above command creates a layer of communication between client and server</p>
+<h3 id='function-parameters-16'>Function Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>data</td>
+<td>matching media configuration  after handshake</td>
+</tr>
+</tbody></table>
+<h2 id='create-receivetransport'>Create receiveTransport</h2><div class="highlight"><pre class="highlight javascript tab-javascript"><code>  <span class="k">this</span><span class="p">.</span><span class="nx">consumerTransport</span> <span class="o">=</span> <span class="nx">device</span><span class="p">.</span><span class="nx">createRecvTransport</span><span class="p">(</span><span class="nx">data</span><span class="p">);</span>
+</code></pre></div>
+<blockquote>
+<p>Create a communinication layer between client and server to receive</p>
+</blockquote>
+
+<p>The above command creates a layer of communication between client and server to receive remote streams</p>
+<h3 id='function-parameters-17'>Function Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>data</td>
+<td>matching media configuration  after handshake</td>
+</tr>
+</tbody></table>
+<h2 id='create-or-produce'>Create or Produce</h2><div class="highlight"><pre class="highlight javascript tab-javascript"><code>   <span class="k">async</span> <span class="nx">produce</span><span class="p">(</span><span class="nx">type</span><span class="p">)</span> <span class="p">{</span>
+    <span class="p">.........</span>
+    <span class="k">switch</span> <span class="p">(</span><span class="nx">type</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">case</span> <span class="nx">mediaType</span><span class="p">.</span><span class="nx">audio</span><span class="p">:</span>
+        <span class="nx">mediaConstraints</span> <span class="o">=</span> <span class="p">{</span>
+          <span class="na">audio</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+          <span class="na">video</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+        <span class="p">};</span>
+        <span class="nx">audio</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+        <span class="k">break</span><span class="p">;</span>
+      <span class="k">case</span> <span class="nx">mediaType</span><span class="p">.</span><span class="nx">video</span><span class="p">:</span>
+        <span class="nx">mediaConstraints</span> <span class="o">=</span> <span class="p">{</span>
+          <span class="na">audio</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+          <span class="na">video</span><span class="p">:</span> <span class="p">{</span>
+            <span class="na">width</span><span class="p">:</span> <span class="p">{</span>
+              <span class="na">min</span><span class="p">:</span> <span class="mi">640</span><span class="p">,</span>
+              <span class="na">ideal</span><span class="p">:</span> <span class="mi">640</span><span class="p">,</span>
+            <span class="p">},</span>
+            <span class="na">height</span><span class="p">:</span> <span class="p">{</span>
+              <span class="na">min</span><span class="p">:</span> <span class="mi">400</span><span class="p">,</span>
+              <span class="na">ideal</span><span class="p">:</span> <span class="mi">400</span><span class="p">,</span>
+            <span class="p">},</span>
+            <span class="p">........</span>
+</code></pre></div>
+<blockquote>
+<p>This function creates a local audio or video stream by using microphone or camera</p>
+</blockquote>
+
+<p>Get the stream from microphone or camera and produce as a steam.</p>
+<h3 id='function-parameters-18'>Function Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>min</td>
+<td>minimum resolution of the video</td>
+</tr>
+<tr>
+<td>ideal</td>
+<td>start the video with this resolution</td>
+</tr>
+</tbody></table>
+<h2 id='receive-or-consume'>Receive  or Consume</h2><div class="highlight"><pre class="highlight javascript tab-javascript"><code>  <span class="k">async</span> <span class="nx">consume</span><span class="p">(</span><span class="nx">producer_id</span><span class="p">,</span> <span class="nx">producer_socket_id</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">getConsumeStream</span><span class="p">(</span><span class="nx">producer_id</span><span class="p">,</span> <span class="nx">producer_socket_id</span><span class="p">).</span><span class="nx">then</span><span class="p">(</span>
+      <span class="kd">function</span> <span class="p">({</span><span class="nx">consumer</span><span class="p">,</span> <span class="nx">stream</span><span class="p">,</span> <span class="nx">kind</span><span class="p">,</span> <span class="nx">userName</span><span class="p">})</span> <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">consumers</span><span class="p">.</span><span class="kd">set</span><span class="p">(</span><span class="nx">consumer</span><span class="p">.</span><span class="nx">id</span><span class="p">,</span> <span class="nx">consumer</span><span class="p">);</span>
+        <span class="p">........</span>
+</code></pre></div>
+<blockquote>
+<p>This function receives the remote stream from server</p>
+</blockquote>
+
+<p>Get the remote stream from server that is sent from different client.</p>
+<h3 id='function-parameters-19'>Function Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>producer_id</td>
+<td>id of producer which is the sending stream</td>
+</tr>
+<tr>
+<td>producer_socket_id</td>
+<td>socket id at the producer&#39;s end</td>
+</tr>
+</tbody></table>
+<h2 id='mute-local'>Mute Local</h2><div class="highlight"><pre class="highlight javascript tab-javascript"><code> <span class="k">this</span><span class="p">.</span><span class="nx">producers</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="nx">producer_id</span><span class="p">).</span><span class="nx">pause</span><span class="p">();</span>
+</code></pre></div>
+<blockquote>
+<p>This function mutes the local stream</p>
+</blockquote>
+
+<p>Mute local stream, stops sending the data but connection persists</p>
+<h3 id='function-parameters-20'>Function Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>producer_id</td>
+<td>id of producer which is the sending stream</td>
+</tr>
+</tbody></table>
+<h2 id='unmute-local'>unMute Local</h2><div class="highlight"><pre class="highlight javascript tab-javascript"><code>  <span class="k">this</span><span class="p">.</span><span class="nx">producers</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="nx">producer_id</span><span class="p">).</span><span class="nx">resume</span><span class="p">();</span>
+</code></pre></div>
+<blockquote>
+<p>This function unMutes the local stream</p>
+</blockquote>
+
+<p>Plays or resume local stream, starts sending the data.</p>
+<h3 id='function-parameters-21'>Function Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>producer_id</td>
+<td>id of producer which is the sending stream</td>
+</tr>
+</tbody></table>
+<h2 id='mute-remote'>Mute Remote</h2><div class="highlight"><pre class="highlight javascript tab-javascript"><code> <span class="nx">pauseProducerRemote</span><span class="p">(</span><span class="nx">producer_id</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">socket</span><span class="p">.</span><span class="nx">request</span><span class="p">(</span><span class="dl">'</span><span class="s1">pauseProducerRemote</span><span class="dl">'</span><span class="p">,</span> <span class="p">{</span><span class="nx">producer_id</span><span class="p">});</span>
+  <span class="p">}</span>
+</code></pre></div>
+<blockquote>
+<p>This function Mutes the remote stream</p>
+</blockquote>
+
+<p>Pause or mute remote stream, stops remote client to send data.</p>
+<h3 id='function-parameters-22'>Function Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>producer_id</td>
+<td>id of producer which is the sending stream</td>
+</tr>
+</tbody></table>
+<h2 id='unmute-remote'>unMute Remote</h2><div class="highlight"><pre class="highlight javascript tab-javascript"><code> <span class="nx">pauseProducerRemote</span><span class="p">(</span><span class="nx">producer_id</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">socket</span><span class="p">.</span><span class="nx">request</span><span class="p">(</span><span class="dl">'</span><span class="s1">resumeProducerRemote</span><span class="dl">'</span><span class="p">,</span> <span class="p">{</span><span class="nx">producer_id</span><span class="p">});</span>
+  <span class="p">}</span>
+</code></pre></div>
+<blockquote>
+<p>This function unMutes the remote stream</p>
+</blockquote>
+
+<p>plays or unmute remote stream, starts remote client to send data.</p>
+<h3 id='function-parameters-23'>Function Parameters</h3>
+<table><thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>producer_id</td>
+<td>id of producer which is the sending stream</td>
 </tr>
 </tbody></table>
 <h1 id='errors'>Errors</h1>
@@ -581,9 +1358,6 @@ This error section is stored in a separate file in <code>includes/_errors.md</co
       </div>
       <div class="dark-box">
           <div class="lang-selector">
-                <a href="#" data-language-name="shell">shell</a>
-                <a href="#" data-language-name="ruby">ruby</a>
-                <a href="#" data-language-name="python">python</a>
                 <a href="#" data-language-name="javascript">javascript</a>
           </div>
       </div>
